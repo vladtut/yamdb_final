@@ -68,12 +68,12 @@ WSGI_APPLICATION = 'api_yamdb.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql', 
-        'NAME': os.environ.get('DB_NAME', default='postgres'), 
-        'USER': os.environ.get('POSTGRES_USER', default='postgres'), 
-        'PASSWORD': os.environ.get('POSTGRES_PASSWORD', default='postgres'), 
-        'HOST': os.environ.get('DB_HOST', default='db'), 
-        'PORT': os.environ.get('DB_PORT', default=5432) 
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': os.environ.get('DB_NAME', default='postgres'),
+        'USER': os.environ.get('POSTGRES_USER', default='postgres'),
+        'PASSWORD': os.environ.get('POSTGRES_PASSWORD', default='postgres'),
+        'HOST': os.environ.get('DB_HOST', default='db'),
+        'PORT': os.environ.get('DB_PORT', default=5432)
     }
 }
 
@@ -117,7 +117,7 @@ STATIC_URL = '/static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media') 
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Authentification
 AUTH_USER_MODEL = 'reviews.User'
