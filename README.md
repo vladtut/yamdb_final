@@ -1,4 +1,6 @@
-# проект api_yamdb
+# проект yamdb_final
+
+![example workflow](https://github.com/vladtut/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 ## Описание проекта:
 
