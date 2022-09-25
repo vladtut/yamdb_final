@@ -2,6 +2,9 @@
 
 ![example workflow](https://github.com/vladtut/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?event=push)
 
+## URL проекта:
+vlad153.sytes.net
+
 ## Описание проекта:
 
 Этот проект предоставляет доступ к api проекта api_yamdb, который позволяет оставлять отзывы и оценки к произведениям мирового искусства.
@@ -209,4 +212,4 @@ GET http://api.example.org/api/v1/users/{username}/
 ```
 
 # АВТОРЫ:
-работы выыполнял vlad, а его тимлидом был anton
+работы выполнял vlad, а его тимлидом был anton
