@@ -66,6 +66,7 @@ jobs:
         passphrase: ${{ secrets.PASSPHRASE }}
         script: |
           # Выполняет pull образа с DockerHub
+          # elfkbnm
           sudo docker pull vladtut/yamdb_final
           #остановка всех контейнеров
           # sudo docker stop $(sudo docker ps -a -q)
