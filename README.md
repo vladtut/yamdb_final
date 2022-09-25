@@ -3,7 +3,7 @@
 ![example workflow](https://github.com/vladtut/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?event=push)
 
 ## URL проекта:
-vlad153.sytes.net
+https://vlad153.sytes.net
 
 ## Описание проекта:
 
