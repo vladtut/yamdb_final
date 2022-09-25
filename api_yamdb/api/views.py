@@ -77,8 +77,7 @@ class CommentViewSet(viewsets.ModelViewSet):
 
     def get_queryset(self):
         review = get_object_or_404(Review, id=self.kwargs.get("review_id"))
-        new_queryset = review.comments.all()
-        return new_queryset
+        return review.comments.all()
 
 
 class ReviewViewSet(viewsets.ModelViewSet):
@@ -93,8 +92,7 @@ class ReviewViewSet(viewsets.ModelViewSet):
 
     def get_queryset(self):
         title = get_object_or_404(Title, id=self.kwargs.get("title_id"))
-        new_queryset = title.reviews.all()
-        return new_queryset
+        return title.reviews.all()
 
 
 class UserAdminViewSet(viewsets.ModelViewSet):
@@ -120,6 +118,7 @@ class UserAdminViewSet(viewsets.ModelViewSet):
             serializer.is_valid(raise_exception=True)
             serializer.save()
             return Response(serializer.data, status=status.HTTP_200_OK)
+        return False
 
 
 @api_view(['POST'])
