@@ -61,6 +61,7 @@ jobs:
         with:
           push: true
           tags: vladtut/yamdb_final:latest
+          file: api_yamdb/Dockerfile
   deploy:
     runs-on: ubuntu-latest
     needs: build_and_push_to_docker_hub
