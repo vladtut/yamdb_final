@@ -14,6 +14,7 @@ https://vlad153.sytes.net
  * DRF (Django REST framework)
  * Django ORM
  * Docker
+ * ci, cd 
  * Gunicorn
  * nginx
  * Яндекс Облако(Ubuntu 18.04)
